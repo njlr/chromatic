@@ -1,0 +1,7 @@
+group Demo
+
+FSharp.Core
+Fable.Core
+Fable.React
+Feliz
+File: Aether.fs

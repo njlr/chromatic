@@ -1,0 +1,61 @@
+STORAGE: NONE
+RESTRICTION: || (== netcoreapp3.1) (== netstandard2.0) (== netstandard2.1)
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    Fable.Core (3.1.6)
+      FSharp.Core (>= 4.7.1)
+    FSharp.Core (5.0)
+
+GROUP Demo
+STORAGE: NONE
+RESTRICTION: || (== netcoreapp3.1) (== netstandard2.0) (== netstandard2.1)
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    Fable.AST (3.0.0-nagareyama-rc-001)
+    Fable.Browser.Blob (1.1)
+      Fable.Core (>= 3.0)
+      FSharp.Core (>= 4.6.2)
+    Fable.Browser.Dom (2.1.2)
+      Fable.Browser.Blob (>= 1.1)
+      Fable.Browser.Event (>= 1.2.1)
+      Fable.Browser.WebStorage (>= 1.0)
+      Fable.Core (>= 3.0)
+      FSharp.Core (>= 4.7.1)
+    Fable.Browser.Event (1.2.1)
+      Fable.Core (>= 3.0)
+      FSharp.Core (>= 4.7)
+    Fable.Browser.WebStorage (1.0)
+      Fable.Browser.Event (>= 1.0)
+      Fable.Core (>= 3.0)
+      FSharp.Core (>= 4.5.2)
+    Fable.Core (3.1.6)
+      FSharp.Core (>= 4.7.1)
+    Fable.React (7.0.1)
+      Fable.Browser.Dom (>= 2.0.1)
+      Fable.Core (>= 3.1.5)
+      FSharp.Core (>= 4.7.1)
+    Feliz (1.18)
+      Fable.Core (>= 3.1.5)
+      Fable.React (>= 7.0.1)
+      Feliz.CompilerPlugins (>= 0.5)
+      FSharp.Core (>= 4.7.2)
+    Feliz.CompilerPlugins (0.5)
+      Fable.AST (>= 3.0.0-nagareyama-rc-001)
+      FSharp.Core (>= 4.7.1)
+    FSharp.Core (5.0)
+GITHUB
+  remote: xyncro/aether
+    src/Aether/Aether.fs (8dcbdc50190ac05851f4ccf57b356afbae5821a5)
+GROUP Test
+STORAGE: NONE
+RESTRICTION: || (== netcoreapp3.1) (== netstandard2.0) (== netstandard2.1)
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    Expecto (9.0.2)
+      FSharp.Core (>= 4.6)
+      Mono.Cecil (>= 0.11.2)
+    FSharp.Core (5.0)
+    Mono.Cecil (0.11.3)
+GITHUB
+  remote: xyncro/aether
+    src/Aether/Aether.fs (8dcbdc50190ac05851f4ccf57b356afbae5821a5)
