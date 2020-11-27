@@ -1,7 +1,7 @@
 source https://api.nuget.org/v3/index.json
 
 storage: none
-framework: netcoreapp3.1, netstandard2.0, netstandard2.1
+framework: netcoreapp5.0, netstandard2.0, netstandard2.1
 nuget FSharp.Core
 nuget Fable.Core
 
@@ -11,7 +11,7 @@ group Test
 source https://api.nuget.org/v3/index.json
 
 storage: none
-framework: netcoreapp3.1, netstandard2.0, netstandard2.1
+framework: netcoreapp5.0, netstandard2.0, netstandard2.1
 nuget Expecto
 nuget FSharp.Core
 github xyncro/aether:8.3.1 src/Aether/Aether.fs
@@ -22,7 +22,7 @@ group Demo
 source https://api.nuget.org/v3/index.json
 
 storage: none
-framework: netcoreapp3.1, netstandard2.0, netstandard2.1
+framework: netcoreapp5.0, netstandard2.0, netstandard2.1
 nuget FSharp.Core
 nuget Fable.Core
 nuget Fable.React

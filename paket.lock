@@ -1,5 +1,5 @@
 STORAGE: NONE
-RESTRICTION: || (== netcoreapp3.1) (== netstandard2.0) (== netstandard2.1)
+RESTRICTION: || (== net50) (== netstandard2.0) (== netstandard2.1)
 NUGET
   remote: https://api.nuget.org/v3/index.json
     Fable.Core (3.1.6)
@@ -8,7 +8,7 @@ NUGET
 
 GROUP Demo
 STORAGE: NONE
-RESTRICTION: || (== netcoreapp3.1) (== netstandard2.0) (== netstandard2.1)
+RESTRICTION: || (== net50) (== netstandard2.0) (== netstandard2.1)
 NUGET
   remote: https://api.nuget.org/v3/index.json
     Fable.AST (3.0.0-nagareyama-rc-001)
@@ -34,12 +34,12 @@ NUGET
       Fable.Browser.Dom (>= 2.0.1)
       Fable.Core (>= 3.1.5)
       FSharp.Core (>= 4.7.1)
-    Feliz (1.18)
+    Feliz (1.20)
       Fable.Core (>= 3.1.5)
       Fable.React (>= 7.0.1)
-      Feliz.CompilerPlugins (>= 0.5)
+      Feliz.CompilerPlugins (>= 0.7)
       FSharp.Core (>= 4.7.2)
-    Feliz.CompilerPlugins (0.5)
+    Feliz.CompilerPlugins (0.7)
       Fable.AST (>= 3.0.0-nagareyama-rc-001)
       FSharp.Core (>= 4.7.1)
     FSharp.Core (5.0)
@@ -48,7 +48,7 @@ GITHUB
     src/Aether/Aether.fs (8dcbdc50190ac05851f4ccf57b356afbae5821a5)
 GROUP Test
 STORAGE: NONE
-RESTRICTION: || (== netcoreapp3.1) (== netstandard2.0) (== netstandard2.1)
+RESTRICTION: || (== net50) (== netstandard2.0) (== netstandard2.1)
 NUGET
   remote: https://api.nuget.org/v3/index.json
     Expecto (9.0.2)
