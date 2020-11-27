@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <RepositoryUrl>https://github.com/njlr/chromatic</RepositoryUrl>
     <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
 
@@ -14,10 +15,6 @@
     <Compile Include="Optics.fs" />
     <Compile Include="Blend.fs" />
     <Compile Include="Colors.fs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta-63127-02" PrivateAssets="All" />
   </ItemGroup>
 
   <Import Project="..\.paket\Paket.Restore.targets" />
