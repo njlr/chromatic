@@ -29,5 +29,5 @@ jobs:
 
     - name: Publish
       run: |
-        dotnet pack --configuration Release ./chromatic/chromatic.fsproj /p:Version=${GITHUB_REF:11}
+        dotnet pack --configuration Release ./chromatic/chromatic.fsproj
         dotnet nuget push **/*.nupkg --source https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json --api-key ${{ github.token }}
