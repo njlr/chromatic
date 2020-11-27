@@ -29,6 +29,5 @@ jobs:
 
     - name: Publish
       run: |
-        dotnet nuget add source https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json --name github --username ${{ github.repository_owner }}
         dotnet pack --configuration Release ./chromatic/chromatic.fsproj
-        dotnet nuget push **/*.nupkg --source github --api-key ${{ github.token }}
+        dotnet nuget push **/*.nupkg --source https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json --api-key ${{ github.token }}
